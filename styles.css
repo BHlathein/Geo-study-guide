@@ -1,0 +1,86 @@
+/* Universal Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* General Body Styling */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #008080;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2.5em;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+main h2 {
+    color: #008080;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+main p {
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #e6e6e6;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 2em;
+}
